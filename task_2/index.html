@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task 2</title>
+</head>
+<body>
+    <header>
+        <h1>Cek Status Vaksin Covid-19</h1>
+    </header>
+    <div class="form">
+        <h2>Input data diri anda</h2>
+
+        <form action="detail.php" method="GET">
+            <table class="table">
+                <tr>
+                <th>context</th>
+                <th>field</th>
+                </tr>
+                <tr>
+                    <td>Nama depan</td>
+                    <td><input type="text" id="fname" name="fname"></td>
+                </tr>
+                <tr>
+                    <td>Nama belakang</td>
+                    <td><input type="text" id="lname" name="lname"></td>
+                </tr>
+                <tr>
+                    <td>NIK</td>
+                    <td><input type="text" id="nik" name="nik"></td>
+                </tr>
+            </table>
+            <input type="submit" class="button" value="cek status anda">
+        </form>
+    </div>
+</body>
+</html>
